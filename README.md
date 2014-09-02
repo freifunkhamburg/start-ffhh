@@ -1,6 +1,11 @@
 start.ffhh
 ==========
 
+Add a service
+-------------
+
+The list of all services is located at `_data/services.yaml`. You can use this file to sort the services and add new ones.
+
 Development
 -----------
 
