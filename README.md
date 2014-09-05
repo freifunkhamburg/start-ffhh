@@ -17,9 +17,8 @@ Development
 Deployment
 ----------
 
-	aptitude install jekyll
-	git clone https://github.com/freifunkhamburg/start-ffhh.git
-	cd start-ffhh
+	cd /var/www/start-ffhh/
+	git pull
 	jekyll build
 
 License
