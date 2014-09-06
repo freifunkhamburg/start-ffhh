@@ -1,6 +1,14 @@
+# .ffhh:
+# network: intern
+# .com:
+# network: public
+#
 - title:    Blogs
   url:      http://wp.ffhh/
+  network:  intern
 - title:    Radio
   url:      http://radio.ffhh/
+  network:  intern
 - title:    Wiki
   url:      https://wiki.freifunk.net/Freifunk_Hamburg
+  network:  public
