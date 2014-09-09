@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="home">
-  <ul class="posts">
+  <ul class="posts row">
     {% for service in site.data.services %}
-      <li>
-        <a class="post-link" href="{{ service.url }}">{{ service.title }}</a>
+      <li class="col-6 col-sm-6 col-lg-4">
+        <h2><a class="post-link" href="{{ service.url }}">{{ service.title }}</a></h2>
       </li>
     {% endfor %}
   </ul>
