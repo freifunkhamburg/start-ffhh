@@ -5,6 +5,7 @@ baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: FreifunkHH
 github_username:  freifunkhamburg/start-ffhh
+about_page:       https://hamburg.freifunk.net/
 
 # Build settings
 markdown: kramdown
