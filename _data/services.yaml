@@ -4,11 +4,14 @@
 # network: public
 #
 - title:    Blogs
+  text:     lorem ipsum
   url:      http://wp.ffhh/
   network:  intern
 - title:    Radio
+  text:     lorem ipsum
   url:      http://radio.ffhh/
   network:  intern
 - title:    Wiki
+  text:     lorem ipsum
   url:      https://wiki.freifunk.net/Freifunk_Hamburg
   network:  public
