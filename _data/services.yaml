@@ -5,13 +5,16 @@
 #
 - title:    Blogs
   text:     lorem ipsum
+  icon:     rocket
   url:      http://wp.ffhh/
   network:  intern
 - title:    Radio
   text:     lorem ipsum
+  icon:     rocket
   url:      http://radio.ffhh/
   network:  intern
 - title:    Wiki
   text:     lorem ipsum
+  icon:     rocket
   url:      https://wiki.freifunk.net/Freifunk_Hamburg
   network:  public
