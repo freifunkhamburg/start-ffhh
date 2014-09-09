@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class="home">
-  <ul class="posts row">
-    {% for service in site.data.services %}
-      <li class="col-6 col-sm-6 col-lg-4">
-        <h2><span class="fa fa-{{ service.icon }}"></span> <a href="{{ service.url }}">{{ service.title }}</a></h2>
-        <p>{{ service.text }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="posts row">
+        {% for service in site.data.services %}
+        <li class="col-6 col-sm-6 col-lg-4">
+            <h2><span class="fa fa-{{ service.icon }}"></span> <a href="{{ service.url }}">{{ service.title }}</a></h2>
+            <p>{{ service.text }}</p>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
