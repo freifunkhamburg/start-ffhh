@@ -5,11 +5,9 @@ var rss = [
 $(document).ready(function() {
     rss.forEach(function(feed) {
         $.get('/feeds/' + feed + '.rss', function(data) {
-            $(data).find('.entry').forEach(function(entry) {
-                var a = $(entry).find('a');
-                var title = a.text();
-                var link = a.attr('href');
-                var text = $(entry).children('.feedEntryContent').text();
+            $(data).find('item').forEach(function(entry) {
+                var title = $(entry).find('title').text();
+                var link = $(entry).find('link').text();
 
                 var item = $('<a>')
                     .attr('href', link)
