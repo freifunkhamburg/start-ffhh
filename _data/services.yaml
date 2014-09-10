@@ -18,3 +18,8 @@
   icon:     rocket
   url:      https://wiki.freifunk.net/Freifunk_Hamburg
   network:  public
+- title:    Verbindung
+  text:     lorem ipsum
+  icon:     wifi
+  url:      http://knoten.ffhh/
+  network:  intern
