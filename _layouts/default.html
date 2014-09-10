@@ -6,8 +6,15 @@
 
     {% include header.html %}
 
-    <div class="wrap">
-        {{ content }}
+    <div class="row wrap">
+        <div class="col-md-8">
+            {{ content }}
+        </div>
+        <div class="col-md-4">
+            <h2>News</h2>
+            <ul class="list-unstyled" id="news">
+            </ul>
+        </div>
     </div>
 
     {% include footer.html %}
