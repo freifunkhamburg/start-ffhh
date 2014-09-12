@@ -28,6 +28,13 @@ body {
   zoom: 1;
 }
 
+.css-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/

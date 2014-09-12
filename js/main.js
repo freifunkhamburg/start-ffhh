@@ -10,6 +10,7 @@ $(document).ready(function() {
                 var link = $(entry).find('link').text();
 
                 var item = $('<a>')
+                    .attr('class', 'css-truncate')
                     .attr('href', link)
                     .attr('target', '_blank')
                     .text(title);
