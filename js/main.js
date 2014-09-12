@@ -20,6 +20,20 @@ $(document).ready(function() {
                 $('#news').append($('<li>').append(item));
                 i++;
             });
+
+            $(data).find('entry').forEach(function(entry) {
+                if(i >= MAX_RSS) return;
+                var title = $(entry).find('title').text();
+                var link = $(entry).find('link').attr('href');
+
+                var item = $('<a>')
+                    .attr('class', 'css-truncate')
+                    .attr('href', link)
+                    .attr('target', '_blank')
+                    .text(title);
+                $('#news').append($('<li>').append(item));
+                i++;
+            });
         });
     });
 });
