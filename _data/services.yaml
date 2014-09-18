@@ -9,8 +9,8 @@
   url:      http://wp.ffhh/
   network:  intern
 - title:    Radio
-  text:     lorem ipsum
-  icon:     rocket
+  text:     Live Stream von freier Musik
+  icon:     file-audio-o
   url:      http://radio.ffhh/
   network:  intern
 - title:    Wiki
