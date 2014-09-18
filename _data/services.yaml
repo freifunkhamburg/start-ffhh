@@ -19,7 +19,7 @@
   url:      https://wiki.freifunk.net/Freifunk_Hamburg
   network:  public
 - title:    Verbindung
-  text:     lorem ipsum
+  text:     Zeige Informationen über den Router mit dem du gerade verbinden bist
   icon:     wifi
   url:      http://knoten.ffhh/
   network:  intern
