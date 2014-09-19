@@ -14,8 +14,8 @@
   url:      http://radio.ffhh/
   network:  intern
 - title:    Wiki
-  text:     lorem ipsum
-  icon:     rocket
+  text:     Freifunk hinter der Bühne
+  icon:     group
   url:      https://wiki.freifunk.net/Freifunk_Hamburg
   network:  public
 - title:    Verbindung
