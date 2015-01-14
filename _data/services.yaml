@@ -3,6 +3,10 @@
 # .com:
 # network: public
 #
+# Pick your icon from here:
+# https://fortawesome.github.io/Font-Awesome/icons/
+# the fa- is added automatically
+#
 #- title:    Blogs
 #  text:     Worpress im Freifunk-Netz
 #  icon:     quote-right
