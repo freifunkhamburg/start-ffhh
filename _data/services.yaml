@@ -3,23 +3,43 @@
 # .com:
 # network: public
 #
-- title:    Blogs
-  text:     Worpress im Freifunk-Netz
-  icon:     quote-right
-  url:      http://wp.ffhh/
-  network:  intern
-- title:    Radio
-  text:     Live Stream von freier Musik
-  icon:     file-audio-o
-  url:      http://radio.ffhh/
-  network:  intern
+#- title:    Blogs
+#  text:     Worpress im Freifunk-Netz
+#  icon:     quote-right
+#  url:      http://wp.ffhh/
+#  network:  intern
+#- title:    Radio
+#  text:     Live Stream von freier Musik
+#  icon:     file-audio-o
+#  url:      http://radio.ffhh/
+#  network:  intern
 - title:    Wiki
-  text:     Freifunk hinter der Bühne
+  text:     Freifunk hinter der Bühne. Unsere Wissenssammlung
   icon:     group
   url:      https://wiki.freifunk.net/Freifunk_Hamburg
   network:  public
 - title:    Verbindung
-  text:     Zeige Informationen über den Router mit dem du gerade verbinden bist
+  text:     Zeigt Informationen über den Router, mit dem du gerade verbunden bist
   icon:     wifi
   url:      http://knoten.ffhh/
+  network:  intern
+- title:    Pastebin
+  text:     Texte schnell und unkompliziert teilen
+  icon:     file
+  url:      http://paste.ffhh
+  network:  intern
+- title:    Chat
+  text:     Peer-to-Peer Text, Audio und Video Chats im Browser mit WebRTC
+  icon:     comments
+  url:      http://chat.ffhh
+  network:  intern
+- title:    ifconfig
+  text:     Zeigt deine IPv4 und IPv6 Adresse
+  icon:     gears
+  url:      http://ifconfig.ffhh
+  network:  intern
+- title:    Medien
+  text:     Hier sammeln wir Grafiken, Flugblätter und vieles mehr. Schaut euch um
+  icon:     folder-open
+  url:      http://media.services.ffhh/
   network:  intern
