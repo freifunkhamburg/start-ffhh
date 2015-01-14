@@ -30,10 +30,10 @@ body {
 
 .css-truncate {
     overflow: hidden;
-    text-overflow: ellipsis;
+#    text-overflow: ellipsis;
     width: 100%;
     display: inline-block;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 /* Layout Styles */

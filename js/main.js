@@ -1,7 +1,15 @@
 var rss = [
     'hamburg.freifunk.net',
 ];
-var MAX_RSS = 5;
+var MAX_RSS = 3;
+
+function shorten(text, maxLength) {
+    var ret = text;
+    if (ret.length > maxLength) {
+        ret = ret.substr(0,maxLength-3) + "...";
+    }
+    return ret;
+}
 
 $(document).ready(function() {
     var addItem = function(title, link, date, text) {
@@ -53,7 +61,7 @@ $(document).ready(function() {
         var i = 0;
         items.forEach(function(item) {
             if(i++ >= MAX_RSS) return;
-            addItem(item.title, item.link, item.date, item.text);
+            addItem(item.title, item.link, item.date, shorten(item.text, 80));
         });
     };
 
