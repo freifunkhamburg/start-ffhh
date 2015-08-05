@@ -7,11 +7,11 @@
 # https://fortawesome.github.io/Font-Awesome/icons/
 # the fa- is added automatically
 #
-#- title:    Blogs
-#  text:     Worpress im Freifunk-Netz
-#  icon:     quote-right
-#  url:      http://wp.ffhh/
-#  network:  intern
+- title:    Blogs
+  text:     Worpress im Freifunk-Netz
+  icon:     quote-right
+  url:      http://wp.ffhh/
+  network:  intern
 #- title:    Radio
 #  text:     Live Stream von freier Musik
 #  icon:     file-audio-o
@@ -32,11 +32,6 @@
   icon:     file
   url:      http://paste.ffhh
   network:  intern
-- title:    Chat
-  text:     Peer-to-Peer Text, Audio und Video Chats im Browser mit WebRTC
-  icon:     comments
-  url:      http://chat.ffhh
-  network:  intern
 - title:    ifconfig
   text:     Zeigt deine IPv4 und IPv6 Adresse
   icon:     gears
@@ -45,5 +40,5 @@
 - title:    Medien
   text:     Hier sammeln wir Grafiken, Flugblätter und vieles mehr. Schaut euch um
   icon:     folder-open
-  url:      http://media.services.ffhh/
+  url:      https://media.services.ffhh/
   network:  intern
