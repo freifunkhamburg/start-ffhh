@@ -25,9 +25,16 @@ $(document).ready(function() {
         $('#news').append($('<li>').append(item).append(prev));
     };
 
+    var forEach = function(x, f) {
+        var i;
+        for(i = 0; i < x.length; i++) {
+            f(x[i]);
+        }
+    };
+
     var getAddedItems = function() {
         var news = [];
-        $('#news').find('li').forEach(function(item) {
+        forEach($('#news').find('li'), function(item) {
             var a = $(item).children('a');
             var p = $(item).children('p');
             var title = a.text();
@@ -41,13 +48,13 @@ $(document).ready(function() {
     };
 
     var clearNewsFeed = function() {
-        $('#news').children().forEach(function(child) {
+        forEach($('#news').children(), function(child) {
             child.remove();
         });
     };
 
     var updateNewsFeed = function(news) {
-        var items = getAddedItems().concat(news);;
+        var items = getAddedItems().concat(news);
 
         items.sort(function(a, b) {
             a = new Date(a.date);
@@ -69,7 +76,7 @@ $(document).ready(function() {
         $.get('/feeds/' + feed + '.rss', function(data) {
             var news = [];
 
-            $(data).find('item').forEach(function(entry) {
+            forEach($(data).find('item'), function(entry) {
                 var title = $(entry).find('title').text();
                 var link = $(entry).find('link').text();
                 var date = $(entry).find('pubDate').text();
@@ -78,7 +85,7 @@ $(document).ready(function() {
                 news.push({title:title, link:link, date:date, text:text});
             });
 
-            $(data).find('entry').forEach(function(entry) {
+            forEach($(data).find('entry'), function(entry) {
                 var title = $(entry).find('title').text();
                 var link = $(entry).find('link').attr('href');
                 var date = $(entry).find('published').text();
