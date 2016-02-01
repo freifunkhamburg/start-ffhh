@@ -37,11 +37,6 @@
 #  icon:     file
 #  url:      http://paste.ffhh
 #  network:  intern
-- title:    ifconfig
-  text:     Zeigt deine IPv4 und IPv6 Adresse
-  icon:     gears
-  url:      http://ifconfig.ffhh
-  network:  intern
 - title:    Medien
   text:     Hier sammeln wir Grafiken, Flugblätter und vieles mehr. Schaut euch um
   icon:     folder-open
