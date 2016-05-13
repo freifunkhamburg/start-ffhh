@@ -12,6 +12,11 @@
   icon:      cloud-download
   url:       https://cloud.hamburg.freifunk.net
   network:   public
+- title:     schnackr
+  text:      schnackr ist ein freier, offener Twitter-Ersatz basierend auf GNUSocial.
+  icon:      comments-o
+  url:       https://schnackr.hamburg.freifunk.net
+  network:   public
 #- title:    Blogs
 #  text:     Worpress im Freifunk-Netz
 #  icon:     quote-right
